@@ -15,6 +15,40 @@
         <pubDate>Sat, 13 Jul 2016 16:22:00 +0000</pubDate>
         <enclosure url="https://github.com/jariz/Noti/releases/download/0.1.2/Noti.dmg" sparkle:version="5" sparkle:shortVersionString="0.1.2" />
       </item>
+      <item>
+        <title>Version 0.1.4</title>
+        <description>
+          <![CDATA[
+            <p>Bugfix release</p>
+            <ul>
+              <li>
+                Fix issue where multiple SMS's where send when replying.
+              </li>
+              <li>
+                Fix issue where Noti would crash when showing a Noti with actions on a non-pro PushBullet account
+              </li>
+              <li>
+                Fix issue where SMS replying was broken when encryption was enabled.
+              </li>
+              <li>
+                Yosemite compatibility: Change deployment target to 10.10
+              </li>
+              <li>
+                Fix potential security problem. (it used to redirect to my website with the auth token, which means I could've collected the tokens, sorry!)
+              </li>
+              <li>
+                Add menu item to see Noti' status.
+              </li>
+              <li>
+                Make Noti's icon darker if it is disconnected
+              </li>
+            </ul>
+            <a href="https://github.com/jariz/Noti/issues?q=is%3Aissue+is%3Aclosed+label%3A0.1.4">See full list of issues on GitHub.</a>
+          ]]>
+        </description>
+        <pubDate>Wed, 27 Jul 2016 16:30:00 +0000</pubDate>
+        <enclosure url="https://github.com/jariz/Noti/releases/download/0.1.4/Noti.dmg" sparkle:version="6" sparkle:shortVersionString="0.1.4" />
+      </item>
   </channel>
 </rss>
 
