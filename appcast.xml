@@ -62,6 +62,26 @@
         <pubDate>Wed, 12 Oct 2016 12:00:00 +0000</pubDate>
         <enclosure url="https://github.com/jariz/Noti/releases/download/0.1.5/Noti.dmg" sparkle:version="7" sparkle:shortVersionString="0.1.5" />
       </item>
+      <item>
+        <title>Version 0.2</title>
+        <description>
+          <![CDATA[
+            <p>The 'settings screen' release</p>
+            <p>Finally, Noti gets a preferences screen, together with a slight rebranding.</p>
+            <ul>
+              <li>Settings screen (<a href="https://github.com/jariz/Noti/issues/27">#27</a>), including:</li>
+              <li>Sound setting <a href="https://github.com/jariz/Noti/issues/19">#19</a></li>
+              <li>Omit app name setting <a href="https://github.com/jariz/Noti/issues/26">#26</a></li>
+              <li>Launch with system setting <a href="https://github.com/jariz/Noti/issues/10">#10</a></li>
+              <li>New icon! <a href="https://github.com/jariz/Noti/issues/28">#28</a></li>
+              <li>Fixes bug where all previous notifications got opened when clicking a notification <a href="https://github.com/jariz/Noti/issues/36">#36</a></li>
+            </ul>
+            <p><a href="https://github.com/jariz/Noti/issues?q=is%3Aissue+is%3Aclosed+label%3A0.2">See full list of issues on GitHub.</a>
+          ]]>
+        </description>
+        <pubDate>Tue, 27 Dec 2016 12:00:00 +0000</pubDate>
+        <enclosure url="https://github.com/jariz/Noti/releases/download/0.2.0/Noti.dmg" sparkle:version="8" sparkle:shortVersionString="0.2" />
+      </item>
   </channel>
 </rss>
 
