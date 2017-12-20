@@ -101,6 +101,25 @@
             <pubDate>Wed, 20 Dec 2017 12:00:00 +0000</pubDate>
             <enclosure url="https://github.com/jariz/Noti/releases/download/0.3/Noti.dmg" sparkle:version="9" sparkle:shortVersionString="0.3" />
         </item>
+        <item>
+            <title>Version 0.3</title>
+            <description>
+                <![CDATA[
+            <p>The "Not Dead Yet!" release</p>
+            <p>A full year after the previous release, we bring you 0.3.<br>Huge shoutout to <a href="https://github.com/ABeltramo">@ABeltramo</a>, and everyone reporting issues when they arise.</p>
+            <ul>
+              <li>Noti now displays pushes from the pushbullet apps. (open links, files, etc, from your notifications!)</li>
+              <li>Codebase ported over to brand spankin' new Swift 4</li>
+              <li>We now log to a file, viewable through the Console.app. Hopefully this helps us diagnose issues more accurately.</li>
+              <li>We now periodically check if the connection is still alive, hopefully this resolves some "Noti-zombie" issues (it would appear to be alive while it really wasn't)</li>
+              <li><a href="https://github.com/jariz/Noti/issues?q=is%3Aissue+is%3Aclosed+label%3A0.3">A myriad of bugfixes...</a></li>
+            </ul>
+            <p><a href="https://github.com/jariz/Noti/pull/63">Full changes on GitHub.</a>
+          ]]>
+            </description>
+            <pubDate>Wed, 20 Dec 2017 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/jariz/Noti/releases/download/0.3/Noti.dmg" sparkle:version="10" sparkle:shortVersionString="0.3" />
+        </item>
     </channel>
 </rss>
 
