@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>Noti: Changelog</title>
-    <link>https://rawgit.com/jariz/Noti-appcast/tree/master/appcast.xml</link>
-    <description>Most recent changes with links to updates.</description>
-    <language>en</language>
-      <item>
-        <title>Version 0.1.2</title>
-        <description>
-          <![CDATA[
+    <channel>
+        <title>Noti: Changelog</title>
+        <link>https://rawgit.com/jariz/Noti-appcast/tree/master/appcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 0.1.2</title>
+            <description>
+                <![CDATA[
             <p>Initial release.</p>
           ]]>
-        </description>
-        <pubDate>Sat, 13 Jul 2016 16:22:00 +0000</pubDate>
-        <enclosure url="https://github.com/jariz/Noti/releases/download/0.1.2/Noti.dmg" sparkle:version="5" sparkle:shortVersionString="0.1.2" />
-      </item>
-      <item>
-        <title>Version 0.1.4</title>
-        <description>
-          <![CDATA[
+            </description>
+            <pubDate>Sat, 13 Jul 2016 16:22:00 +0000</pubDate>
+            <enclosure url="https://github.com/jariz/Noti/releases/download/0.1.2/Noti.dmg" sparkle:version="5" sparkle:shortVersionString="0.1.2" />
+        </item>
+        <item>
+            <title>Version 0.1.4</title>
+            <description>
+                <![CDATA[
             <p>Bugfix release</p>
             <ul>
               <li>
@@ -45,27 +45,27 @@
             </ul>
             <a href="https://github.com/jariz/Noti/issues?q=is%3Aissue+is%3Aclosed+label%3A0.1.4">See full list of issues on GitHub.</a>
           ]]>
-        </description>
-        <pubDate>Wed, 27 Jul 2016 16:30:00 +0000</pubDate>
-        <enclosure url="https://github.com/jariz/Noti/releases/download/0.1.4/Noti.dmg" sparkle:version="6" sparkle:shortVersionString="0.1.4" />
-      </item>
-      <item>
-        <title>Version 0.1.5</title>
-        <description>
-          <![CDATA[
+            </description>
+            <pubDate>Wed, 27 Jul 2016 16:30:00 +0000</pubDate>
+            <enclosure url="https://github.com/jariz/Noti/releases/download/0.1.4/Noti.dmg" sparkle:version="6" sparkle:shortVersionString="0.1.4" />
+        </item>
+        <item>
+            <title>Version 0.1.5</title>
+            <description>
+                <![CDATA[
             <p>Hotfix release</p>
             <p>This release fixes a critical issue where Noti would send a reply to every single notification when only replying to a single notification.<br>
             Because of the importance of this issue, a separate hotfix version has been released.</p>
             <a href="https://github.com/jariz/Noti/issues?q=is%3Aissue+is%3Aclosed+label%3A0.1.5">See full list of issues on GitHub.</a>
           ]]>
-        </description>
-        <pubDate>Wed, 12 Oct 2016 12:00:00 +0000</pubDate>
-        <enclosure url="https://github.com/jariz/Noti/releases/download/0.1.5/Noti.dmg" sparkle:version="7" sparkle:shortVersionString="0.1.5" />
-      </item>
-      <item>
-        <title>Version 0.2</title>
-        <description>
-          <![CDATA[
+            </description>
+            <pubDate>Wed, 12 Oct 2016 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/jariz/Noti/releases/download/0.1.5/Noti.dmg" sparkle:version="7" sparkle:shortVersionString="0.1.5" />
+        </item>
+        <item>
+            <title>Version 0.2</title>
+            <description>
+                <![CDATA[
             <p>The 'settings screen' release</p>
             <p>Finally, Noti gets a preferences screen, together with a slight rebranding.</p>
             <ul>
@@ -78,10 +78,29 @@
             </ul>
             <p><a href="https://github.com/jariz/Noti/issues?q=is%3Aissue+is%3Aclosed+label%3A0.2">See full list of issues on GitHub.</a>
           ]]>
-        </description>
-        <pubDate>Tue, 27 Dec 2016 12:00:00 +0000</pubDate>
-        <enclosure url="https://github.com/jariz/Noti/releases/download/0.2/Noti.dmg" sparkle:version="8" sparkle:shortVersionString="0.2" />
-      </item>
-  </channel>
+            </description>
+            <pubDate>Tue, 27 Dec 2016 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/jariz/Noti/releases/download/0.2/Noti.dmg" sparkle:version="8" sparkle:shortVersionString="0.2" />
+        </item>
+        <item>
+            <title>Version 0.3</title>
+            <description>
+                <![CDATA[
+            <p>The "Not Dead Yet!" release</p>
+            <p>A full year after the previous release, we bring you 0.3.<br>Huge shoutout to <a href="https://github.com/ABeltramo">@ABeltramo</a>, and everyone reporting issues when they arise.</p>
+            <ul>
+              <li>Noti now displays pushes from the pushbullet apps. (open links, files, etc, from your notifications!)</li>
+              <li>Codebase ported over to brand spankin' new Swift 4</li>
+              <li>We now log to a file, viewable through the Console.app. Hopefully this helps us diagnose issues more accurately.</li>
+              <li>We now periodically check if the connection is still alive, hopefully this resolves some "Noti-zombie" issues (it would appear to be alive while it really wasn't)</li>
+              <li><a href="https://github.com/jariz/Noti/issues?q=is%3Aissue+is%3Aclosed+label%3A0.3">A myriad of bugfixes...</a></li>
+            </ul>
+            <p><a href="https://github.com/jariz/Noti/pull/63">Full changes on GitHub.</a>
+          ]]>
+            </description>
+            <pubDate>Wed, 20 Dec 2017 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/jariz/Noti/releases/download/0.3/Noti.dmg" sparkle:version="9" sparkle:shortVersionString="0.3" />
+        </item>
+    </channel>
 </rss>
 
