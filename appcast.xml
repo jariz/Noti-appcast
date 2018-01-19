@@ -120,6 +120,17 @@
             <pubDate>Wed, 20 Dec 2017 12:00:00 +0000</pubDate>
             <enclosure url="https://github.com/jariz/Noti/releases/download/0.3/Noti.dmg" sparkle:version="10" sparkle:shortVersionString="0.3" />
         </item>
+        <item>
+            <title>Version 0.3.1</title>
+            <description>
+                <![CDATA[
+            <p>Hotfix, should resolve disconnection issues.</p>
+            <p><a href="https://github.com/jariz/Noti/issues">See the issues on github for more details</a></p>
+          ]]>
+            </description>
+            <pubDate>Fri, 19 Jan 2018 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/jariz/Noti/releases/download/0.3.1/Noti.dmg" sparkle:version="11" sparkle:shortVersionString="0.3.1" />
+        </item>
     </channel>
 </rss>
 
